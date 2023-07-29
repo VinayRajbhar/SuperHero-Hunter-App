@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+}
+
+header h2 {
+    color: cyan;
+}
+
+header span {
+    color: darkorange;
+}
+
+#home-btn {
+    padding: 5px;
+    margin: 2rem 1rem 0;
+    width: 10rem;
+    cursor: pointer;
+    background-color: teal;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+}
+
+main h1 {
+    height: auto;
+    color: rgb(10, 216, 44);
+    width: 12rem;
+    margin: auto;
+    text-decoration: underline;
+}
+
+#fav-list {
+    width: 80%;
+    height: 30rem;
+    margin: 1.2rem auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+#fav-list::-webkit-scrollbar {
+    display: none;
+}
+
+.name {
+    width: 20rem;
+    height: auto;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    order: 0;
+    border: 1px solid white;
+    margin: auto;
+    margin-bottom: 1rem;
+    cursor: default;
+}
+
+.name .hero-name {
+    margin-bottom: 1rem;
+}
+
+.name .hero-name a {
+    text-decoration: none;
+    color: cyan;
+    font-size: 2rem;
+}
+
+.btn {
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(136, 79, 10);
+    color: cyan;
+    font-weight: bold;
+    width: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    height: 3rem;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
